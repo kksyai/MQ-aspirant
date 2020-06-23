@@ -773,10 +773,13 @@
       padding: 50px 35px;
     }
 
+<<<<<<< HEAD
     .sidebar-title {
       font-size: 14px;
     }
 
+=======
+>>>>>>> ipad
     .goods {
       margin-top: 0;
     }
@@ -799,4 +802,8 @@
     .goods-card:nth-child(2n) {
       margin-right: 0;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ipad
