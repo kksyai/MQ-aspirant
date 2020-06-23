@@ -29,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     background-color: slategrey;
-    background-image: url(/MQ/png/banner_mobile.png);
+    background-image: url(png/banner_mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -188,20 +188,20 @@
   }
 
   .interior {
-    background-image: url(/MQ/png/Photo-1.png);
+    background-image: url(png/Photo-1.png);
     
   }
 
   .food {
-    background-image: url(/MQ/png/Photo-2.png);
+    background-image: url(png/Photo-2.png);
   }
 
   .travel {
-    background-image: url(/MQ/png/Photo-3.png);
+    background-image: url(png/Photo-3.png);
   }
 
   .health {
-    background-image: url(/MQ/png/Photo-4.png);
+    background-image: url(png/Photo-4.png);
   }
 
 
@@ -719,7 +719,7 @@
   @media (min-width: 641px) and (max-width: 960px){
 
     .header {
-      background-image: url(/MQ/png/banner_mobile.png);
+      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
       padding: 43px 35px 124px;
     }
 
@@ -774,12 +774,18 @@
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ipad_2
     .sidebar-title {
       font-size: 14px;
     }
 
+<<<<<<< HEAD
 =======
 >>>>>>> ipad
+=======
+>>>>>>> ipad_2
     .goods {
       margin-top: 0;
     }
