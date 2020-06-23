@@ -105,23 +105,7 @@
     text-transform: uppercase;
   }
   
-  /* .menu-list {
-    display: flex;
-  }
-  
-  .menu-list-item{
-    list-style: none;
-  }
-  
-  .menu-link {
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  .menu-list-item:nth-child(n+2){
-    margin-left: 38px;
-  } */
+ 
   
   .header-text {
     position: relative;
@@ -744,7 +728,7 @@
     .header-text {
       font-size: 40px;
       margin-top: 103px;
-      width: 100%;
+      width: 90%;
       line-height: 1.38;
     }
 
@@ -773,19 +757,10 @@
       padding: 50px 35px;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ipad_2
     .sidebar-title {
       font-size: 14px;
     }
 
-<<<<<<< HEAD
-=======
->>>>>>> ipad
-=======
->>>>>>> ipad_2
     .goods {
       margin-top: 0;
     }
@@ -808,8 +783,129 @@
     .goods-card:nth-child(2n) {
       margin-right: 0;
     }
-<<<<<<< HEAD
+
+  }
+
+  @media (min-width: 961px) and (max-width: 1920px){
+
+    .header {
+      padding: 28px 248px 145px;
+      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+    }
+    
+    .menu-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      margin-top: 0;
+      height: 41px;
+    }
+
+    .menu-line {
+      display: none;
+    }
+
+    .menu {
+      display: block;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+     .menu-list {
+    display: flex;
+  }
+  
+  .menu-list-item{
+    list-style: none;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .menu-list-item:nth-child(n+2){
+    margin-left: 38px;
+  } 
+
+  .header-text {
+    font-size: 45px;
+    margin-top: 125px;
+    width: 90%;
+    line-height: 1.67;
+  }
+
+  .trends-title {
+    font-size: 20px;
+  }
+
+  .trends-container {
+    display: flex;
+    flex-wrap: no-wrap;
+  }
+
+  .trend-item {
+    box-sizing: border-box;
+    width: 25%;
+    margin-right: 4px;
+  }
+
+  .trend-item:last-child {
+    margin-right: 0;
+  }
+
+  .main-section {
+    display: flex;
+    padding: 50px 245px;
+  }
+
+  .resent-post, .search, .subscribe, .tags, .categorys {
+    margin-top: 40px;
+    padding: 0;
+  }
+  .newsboxes {
+    flex-grow: 40;
+    padding: 0;
+    margin-right: 130px;
+  }
+
+  .info-column {
+    flex-grow: 1;
+  }
+
+  .goods {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .goods-title {
+    font-size: 18px;
+  }
+
+  .goods-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: flex-end;
+    padding: 0 245px;
+  }
+
+  .goods-card {
+    margin-right: 60px;
+    width: 30%;
+  }
+
+  .goods-card:last-child {
+    margin-right: 0;
+  }
+
+  .footer {
+    padding: 0 245px;
+  }
+
 }
-=======
-}
->>>>>>> ipad
