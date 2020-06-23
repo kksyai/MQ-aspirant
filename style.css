@@ -22,10 +22,6 @@
   }
   
   /* cстили для banera & headera */
-  
-@media (min-width: 360px), (max-width: 768px) {
-
-}
 
   .header {
     position: relative;
@@ -33,12 +29,17 @@
     flex-direction: column;
     align-items: center;
     background-color: slategrey;
-    background-image: url(png/banner_mobile.png);
+    background-image: url(/MQ/png/banner_mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
   
     padding: 31px 15px 219px;
     z-index: 0;
+  }
+
+  .logo {
+    margin-top: 174px;
+    height: 61px;
   }
   
   .header::after {
@@ -62,11 +63,7 @@
 
   } */
   
-  .logo {
-    margin-top: 174px;
-    /* width: 269px; */
-    height: 61px;
-  }
+ 
 
   /* .sandwich-menu {
     margin-bottom: 174px;
@@ -191,20 +188,20 @@
   }
 
   .interior {
-    background-image: url(png/Photo-1.png);
+    background-image: url(/MQ/png/Photo-1.png);
     
   }
 
   .food {
-    background-image: url(png/Photo-2.png);
+    background-image: url(/MQ/png/Photo-2.png);
   }
 
   .travel {
-    background-image: url(png/Photo-3.png);
+    background-image: url(/MQ/png/Photo-3.png);
   }
 
   .health {
-    background-image: url(png/Photo-4.png);
+    background-image: url(/MQ/png/Photo-4.png);
   }
 
 
@@ -716,3 +713,90 @@
     font-weight: bold;
     color: #999999;
   }
+
+/* медиазапросы */
+
+  @media (min-width: 641px) and (max-width: 960px){
+
+    .header {
+      background-image: url(/MQ/png/banner_mobile.png);
+      padding: 43px 35px 124px;
+    }
+
+    .menu-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: baseline;
+      position: relative;
+    }
+
+    .menu-line {
+      align-self: flex-start;
+    }
+
+    .logo {
+      margin-top: 0;
+      height: 36px;
+    }
+
+    .header-text {
+      font-size: 40px;
+      margin-top: 103px;
+      width: 100%;
+      line-height: 1.38;
+    }
+
+    .trends-title {
+      font-size: 18px;
+    }
+
+    .trends-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .trend-item {
+      box-sizing: border-box;
+      width: 49.7%;
+      margin-right: 3.7px;
+    }
+
+    .trend-item:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    .main-section {
+      display: flex;
+      padding: 50px 35px;
+    }
+
+    .sidebar-title {
+      font-size: 14px;
+    }
+
+    .goods {
+      margin-top: 0;
+    }
+
+    .goods-title {
+      font-size: 18px;
+    }
+
+    .goods-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .goods-card {
+      margin-right: 20px;
+      width: 48%;
+
+    }
+
+    .goods-card:nth-child(2n) {
+      margin-right: 0;
+    }
+}
